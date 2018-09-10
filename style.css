@@ -1,0 +1,66 @@
+body {
+	color:#494949;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.carousel-caption {
+	color:#FFFFFF;
+	text-align:left;
+	bottom:50px;
+}
+
+#footer {
+	background-color: #333;
+}
+#footer li {
+	list-style-type: none;
+}
+
+/*** Hover Picture ***/
+p {margin:0;}
+
+.picture {
+	position:relative;
+	margin:0 auto;
+	padding: 0;
+	width: 100%;
+	height:auto;
+}
+
+.veilWhite {
+	position: absolute;
+	width:100%;
+	height:100%;
+	margin:0;
+	background-color: #FFF;
+	opacity:0.5;
+ }
+
+.reward {
+	background-color: #FFF;
+	position: absolute;
+	padding: 0.5em 1.5em 0.5em 1.5em;
+	text-align:center;
+	font-size: 1.5em;
+	top: 0.5em;
+	left:22%;
+	border-radius: 10px;
+	opacity: 0.8;
+}
+
+.nbCoins {color: #FF8000;}
+
+.name {
+	position: absolute;
+	width:100%;
+	text-align: center;
+	top:50%;
+	color:#FFF;
+	font-size: 3rem;
+}
+
+/* Hover action */
+.picture:hover .veilWhite {opacity:0;}
+.picture:hover .reward {display: none;}
+.picture:hover .name {font-size:2em; top: 80%;}
+/*** Hover Picture ***/
